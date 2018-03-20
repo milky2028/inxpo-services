@@ -1,5 +1,7 @@
 <template>
-  <h1>Collapsing Header</h1>
+  <div class="container grid">
+    <h1 class="over-sized">Services</h1>
+  </div>
 </template>
 
 <script>
@@ -8,7 +10,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
+
+.over-sized {
+  font-size: 3rem;
+}
 </style>
 

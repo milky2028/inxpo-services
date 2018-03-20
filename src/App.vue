@@ -4,6 +4,7 @@
       <collapsing-header></collapsing-header>
       <main-content></main-content>
       <app-footer></app-footer>
+      <div class="scroller"></div>
   </div>
 </template>
 
@@ -25,14 +26,30 @@ body {
 #app {
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .container {
-  width: 1040px;
+  max-width: 1040px;
   margin: auto;
 }
 
 h1 {
-  font-weight: 800;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: 0.5px;
+}
+
+.divider {
+  width: 100%;
+  background-color: white;
+  height: 0.4px;
+}
+
+.scroller {
+  height: 200vh;
 }
 </style>
