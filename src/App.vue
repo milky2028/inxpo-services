@@ -3,8 +3,8 @@
       <app-toolbar></app-toolbar>
       <collapsing-header></collapsing-header>
       <main-content></main-content>
-      <!-- <app-footer></app-footer> -->
-      <div class="scroller"></div>
+      <!-- <app-footer></app-footer>
+      <div class="scroller"></div> -->
   </div>
 </template>
 

@@ -74,6 +74,7 @@ export default {
     grid-column-gap: 4vw;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 90px 300px 90px 300px 300px 90px 300px;
+    margin-bottom: 20vh;
     grid-template-areas:
       "zero zero zero zero" 
       "one one one two"
