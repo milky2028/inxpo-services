@@ -20,6 +20,8 @@ export default {
 body {
   margin: 0;
   --dark-grey: #252525;
+  --laser-green: #0E9948;
+  --dark-green: #0B803C;
   background-color: var(--dark-grey)
 }
 
@@ -31,7 +33,7 @@ body {
 }
 
 .container {
-  max-width: 1040px;
+  max-width: 1240px;
   margin: auto;
 }
 
@@ -43,13 +45,29 @@ h1 {
   letter-spacing: 0.5px;
 }
 
+h2 {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 600;
+}
+
 .divider {
   width: 100%;
   background-color: white;
-  height: 0.4px;
+  height: 1px;
+  opacity: 0.4;
 }
 
 .scroller {
   height: 200vh;
+}
+
+@media (max-width: 420px) {
+  #app {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 </style>
