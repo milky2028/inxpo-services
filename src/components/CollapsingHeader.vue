@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 .grid {
-  height: 55vh;
+  height: 45vh;
   display: grid;
   grid-template-rows: 1fr 10px;
   justify-items: center;
@@ -33,14 +33,8 @@ export default {
   justify-items: center;
 }
 
-.over-sized {
-  font-size: 3rem;
-}
-
 .sub-title {
   max-width: 750px;
-  font-size: 1.1rem;
-  font-weight: 300;
   text-align: center;
 }
 
@@ -52,14 +46,13 @@ export default {
   padding: 12px 40px;
   font-size: 1rem;
   box-shadow: -4px 5px 40px -7px #000;
-  transition: box-shadow 0.8s ease;
-  transition: background-color 0.8s ease;
+  transition: box-shadow 0.4s ease, background-color 0.4s ease;
   cursor: pointer;
   margin-top: 20px;
 }
 
 .button:hover {
-  box-shadow: -2px 3px 40px -8px #000;
+  box-shadow: -1px 1px 30px -8px #000;
   background-color: var(--dark-green);
 }
 

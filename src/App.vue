@@ -3,7 +3,7 @@
       <app-toolbar></app-toolbar>
       <collapsing-header></collapsing-header>
       <main-content></main-content>
-      <app-footer></app-footer>
+      <!-- <app-footer></app-footer> -->
       <div class="scroller"></div>
   </div>
 </template>
@@ -37,6 +37,10 @@ body {
   margin: auto;
 }
 
+.over-sized {
+  font-size: 3rem;
+}
+
 h1 {
   font-size: 1.6rem;
   font-weight: 600;
@@ -46,7 +50,17 @@ h1 {
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .bold {
