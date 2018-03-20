@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <app-toolbar>This is the main toolbar</app-toolbar>
+      <app-toolbar></app-toolbar>
       <collapsing-header></collapsing-header>
       <main-content></main-content>
       <app-footer></app-footer>
@@ -30,5 +30,9 @@ body {
 .container {
   width: 1040px;
   margin: auto;
+}
+
+h1 {
+  font-weight: 800;
 }
 </style>
