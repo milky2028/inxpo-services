@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 .grid {
-  height: 45vh;
+  height: 55vh;
   display: grid;
   grid-template-rows: 1fr 10px;
   justify-items: center;

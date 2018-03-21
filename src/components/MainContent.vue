@@ -24,33 +24,28 @@
       <h4 class="identifying-title">Together, with INXPO’s insights, set a promotion plan to attract an audience to your event and measure success.</h4>
     </div>
     <div class="service-box fourth">
-      <h4 class="identifying-title">We'll Take Care of Things</h4>
-      <h2 class="over-sized reg-title">Managed Service</h2>
-      <h4 class="identifying-title">INXPO offers full service, white glove support from beginning to end guiding our customers through their entire event lifecycle.</h4>
+      <h4 class="identifying-title">Capture and Produce</h4>
+      <h2 class="over-sized reg-title">Video Production</h2>
+      <h4 class="identifying-title">INXPO’s team can guide you through your video capturing, live streaming and production needs.</h4>
     </div>
     <div class="service-box fifth">
-      <h4 class="identifying-title">We'll Take Care of Things</h4>
-      <h2 class="over-sized reg-title">Managed Service</h2>
-      <h4 class="identifying-title">INXPO offers full service, white glove support from beginning to end guiding our customers through their entire event lifecycle.</h4>
+      <h4 class="identifying-title">identify and Interact</h4>
+      <h2 class="over-sized reg-title">Engagement Strategy</h2>
+      <h4 class="identifying-title">Work with INXPO’s team to identify and train presenters and create interactive content tailored for an online audience.</h4>
     </div>
     <div class="service-box sixth">
-      <h4 class="identifying-title">We'll Take Care of Things</h4>
-      <h2 class="over-sized reg-title">Managed Service</h2>
-      <h4 class="identifying-title">INXPO offers full service, white glove support from beginning to end guiding our customers through their entire event lifecycle.</h4>
+      <h4 class="identifying-title">Optimize and Serve</h4>
+      <h2 class="over-sized reg-title">Bandwidth Optimization</h2>
+      <h4 class="identifying-title">Our technical services team will help you create a plan to ensure Network Readiness for your enterprise.</h4>
     </div>
     <div class="service-box seventh">
-      <h4 class="identifying-title">We'll Take Care of Things</h4>
-      <h2 class="over-sized reg-title">Managed Service</h2>
-      <h4 class="identifying-title">INXPO offers full service, white glove support from beginning to end guiding our customers through their entire event lifecycle.</h4>
-    </div>
-    <div class="header3">
-      <h2>Strategic Consulting Services</h2>
-      <h3>Our team of consultants and subject matter experts can complement or train your team so together we deliver upon your program goals. From consulting and strategy, to technical and program management, INXPO is committed to the quality of your programs and supporting your needs.</h3>
+      <h4 class="identifying-title">Integrate and Analyze</h4>
+      <h2 class="over-sized reg-title">Data Integration</h2>
+      <h4 class="identifying-title">Take advantage of our rich API’s, and work with our team to implement a data strategy that works best for you.</h4>
     </div>
     <div class="service-box eighth">
-      <h4 class="identifying-title">We'll Take Care of Things</h4>
-      <h2 class="over-sized reg-title">Managed Service</h2>
-      <h4 class="identifying-title">INXPO offers full service, white glove support from beginning to end guiding our customers through their entire event lifecycle.</h4>
+      <h4 class="identifying-title">Connect and Subscribe</h4>
+      <h2 class="over-sized reg-title">Connect with Us</h2>
     </div>
   </div>
 </template>
@@ -81,7 +76,6 @@ export default {
       "zero-2 zero-2 zero-2 zero-2"
       "three four four five"
       "six six seven seven"
-      "zero-3 zero-3 zero-3 zero-3"
       "eight eight eight eight";
   }
 
