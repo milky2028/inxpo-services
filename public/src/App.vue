@@ -30,7 +30,9 @@ body {
 }
 
 .section {
-  background-color: var(--dark-grey)
+  background-color: var(--dark-grey);
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .container {
@@ -77,12 +79,5 @@ h4 {
 
 .scroller {
   height: 200vh;
-}
-
-@media (max-width: 420px) {
-  #app {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 }
 </style>

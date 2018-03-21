@@ -44,7 +44,7 @@
       <h4 class="identifying-title">Take advantage of our rich API’s, and work with our team to implement a data strategy that works best for you.</h4>
     </div>
     <div class="service-box eighth connect-grid">
-      <div>
+      <div class="connect-container">
         <h4 class="identifying-title">Connect and Subscribe</h4>
         <h2 class="over-sized reg-title">Connect with Us</h2>
       </div>
@@ -65,6 +65,8 @@ export default {
 
 <style scoped>
   .grid {
+    padding-right: 15px;
+    padding-left: 15px;
     justify-items: center;
     display: grid;
     grid-row-gap: 7vh;
@@ -202,6 +204,56 @@ export default {
     width: 50px;
     justify-self: center;
     align-self: center;
+  }
+
+  @media (max-width: 1024px) {
+    .grid {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+      align-content: center;
+    }
+
+    .service-box {
+      width: 100%;
+      height: 250px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      transition: box-shadow 0.4s ease;
+      cursor: pointer;
+  }
+
+    .connect-grid {
+      display: block;
+    }
+
+    .connect-container {
+      margin-bottom: 15px;
+    }
+
+    .sm-icon {
+      width: 35px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
   }
 </style>
 
