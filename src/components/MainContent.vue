@@ -1,5 +1,5 @@
 <template>
-  <div class="wide-container grid">
+  <div class="container grid">
     <div class="header">
       <h2 class="grey">EaaS (Events as a Service)</h2>
       <h3 class="grey">Whether you're looking for the white glove treatment or a rinse and repeat approach your team can control, <span class="bold">we’ve got you covered</span>. INXPO’s service models are designed to provide you with the best approach to fit your business needs.</h3>
@@ -43,9 +43,16 @@
       <h2 class="over-sized reg-title">Data Integration</h2>
       <h4 class="identifying-title">Take advantage of our rich API’s, and work with our team to implement a data strategy that works best for you.</h4>
     </div>
-    <div class="service-box eighth">
-      <h4 class="identifying-title">Connect and Subscribe</h4>
-      <h2 class="over-sized reg-title">Connect with Us</h2>
+    <div class="service-box eighth connect-grid">
+      <div>
+        <h4 class="identifying-title">Connect and Subscribe</h4>
+        <h2 class="over-sized reg-title">Connect with Us</h2>
+      </div>
+      <img class="sm-icon" src="../assets/facebook.svg">
+      <img class="sm-icon" src="../assets/twitter.svg">
+      <img class="sm-icon" src="../assets/linkedin.svg">
+      <img class="sm-icon" src="../assets/youtube.svg">
+      <img class="sm-icon" src="../assets/rss.svg">
     </div>
   </div>
 </template>
@@ -57,11 +64,6 @@ export default {
 </script>
 
 <style scoped>
-  .wide-container {
-    padding-left: 3vw;
-    padding-right: 3vw;
-  }
-
   .grid {
     justify-items: center;
     display: grid;
@@ -189,6 +191,17 @@ export default {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .connect-grid {
+    display: grid;
+    grid-template-columns: 380px 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .sm-icon {
+    width: 50px;
+    justify-self: center;
+    align-self: center;
   }
 </style>
 

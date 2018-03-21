@@ -6,7 +6,6 @@
       <h3 class="sub-title">We believe that successful events require both the technology and services to deliver an <span class="bold">end-to-end event experience</span>. Whether you need full service support, consulting services along the way, or a self-service option we will tailor our service offerings to your organization's needs.</h3>
       <button class="button">Get in Touch</button>
     </div>
-    <div class="divider"></div>
   </div>
 
 </div>
