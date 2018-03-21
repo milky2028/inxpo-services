@@ -161,7 +161,7 @@ export default {
 
   .fifth {
     grid-area: five;
-    background-image: linear-gradient(180deg, rgba(141, 233, 56, 0.85), rgba(141, 233, 56, 0.85)),url('../assets/director.jpg');
+    background-image: linear-gradient(180deg, rgba(141, 233, 56, 0.85), rgba(141, 233, 56, 0.85)),url('../assets/engagement.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
