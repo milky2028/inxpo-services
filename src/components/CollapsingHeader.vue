@@ -1,4 +1,5 @@
 <template>
+<div class="section">
   <div class="container grid">
     <div class="content">
       <h1 class="over-sized">Services</h1>
@@ -7,6 +8,8 @@
     </div>
     <div class="divider"></div>
   </div>
+
+</div>
 </template>
 
 <script>

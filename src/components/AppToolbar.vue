@@ -1,10 +1,12 @@
 <template>
-    <div class="container grid">
+<div class="section">
+  <div class="container grid">
         <a href="/"><img class="menu" src="../assets/menu.svg"></a>
         <h1>Services</h1>
         <a href="/"><img class="logo" src="../assets/inxpo-logo.png"></a>
         <div class="divider"></div>
     </div>
+</div>
 </template>
 
 <script>
@@ -20,8 +22,8 @@ export default {
     grid-template-areas:
     "menu page-title logo"
     "bottom bottom bottom"; 
-    margin-top: 11px;
-    margin-bottom: 11px;
+    padding-bottom: 11px;
+    padding-top: 11px;
     grid-row-gap: 2px;
   }
 

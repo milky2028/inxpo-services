@@ -22,14 +22,15 @@ body {
   --dark-grey: #252525;
   --laser-green: #0E9948;
   --dark-green: #0B803C;
-  background-color: var(--dark-grey)
 }
 
 #app {
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+}
+
+.section {
+  background-color: var(--dark-grey)
 }
 
 .container {

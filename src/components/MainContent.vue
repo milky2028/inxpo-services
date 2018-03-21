@@ -1,8 +1,8 @@
 <template>
   <div class="wide-container grid">
     <div class="header">
-      <h2>EaaS (Events as a Service)</h2>
-      <h3>Whether you're looking for the white glove treatment or a rinse and repeat approach your team can control, <span class="bold">we’ve got you covered</span>. INXPO’s service models are designed to provide you with the best approach to fit your business needs.</h3>
+      <h2 class="grey">EaaS (Events as a Service)</h2>
+      <h3 class="grey">Whether you're looking for the white glove treatment or a rinse and repeat approach your team can control, <span class="bold">we’ve got you covered</span>. INXPO’s service models are designed to provide you with the best approach to fit your business needs.</h3>
     </div>
     <div class="service-box first">
       <h4 class="identifying-title">We'll Take Care of Things</h4>
@@ -15,8 +15,8 @@
       <h4 class="identifying-title">Work with INXPO’s team to identify and train presenters and create interactive content tailored for an online audience.</h4>
     </div>
     <div class="header2">
-      <h2>Strategic Consulting Services</h2>
-      <h3>Our team of consultants and subject matter experts can complement or train your team so together we deliver upon your program goals. From consulting and strategy, to technical and program management, INXPO is committed to the quality of your programs and supporting your needs.</h3>
+      <h2 class="grey">Strategic Consulting Services</h2>
+      <h3 class="grey">Our team of consultants and subject matter experts can complement or train your team so together we deliver upon your program goals. From consulting and strategy, to technical and program management, INXPO is committed to the quality of your programs and supporting your needs.</h3>
     </div>
     <div class="service-box third">
       <h4 class="identifying-title">Plan and Implement</h4>
@@ -79,6 +79,10 @@ export default {
       "eight eight eight eight";
   }
 
+  .grey {
+    color: var(--dark-grey);
+  }
+
   .header {
     grid-area: zero;
     justify-self: start;
@@ -103,7 +107,7 @@ export default {
   }
 
   .identifying-title {
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .service-box {
@@ -115,7 +119,6 @@ export default {
     padding-right: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: red;
     transition: box-shadow 0.4s ease;
     cursor: pointer;
   }
@@ -126,34 +129,66 @@ export default {
 
   .first {
     grid-area: one;
+    background-image: linear-gradient(180deg, rgba(56, 91, 233, .85), rgba(56, 91, 233, .85)),url('../assets/director.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .second {
     grid-area: two;
+    background-image: linear-gradient(180deg, rgba(233, 198, 56, 0.85), rgba(233, 198, 56, 0.85)),url('../assets/self.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .third {
     grid-area: three;
+    background-image: linear-gradient(180deg, rgba(56, 198, 233, 0.85), rgba(56, 198, 233, 0.85)),url('../assets/marketing.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .fourth {
     grid-area: four;
+    background-image: linear-gradient(180deg, rgba(176, 56, 233, 0.85), rgba(176, 56, 233, 0.85)),url('../assets/production.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .fifth {
     grid-area: five;
+    background-image: linear-gradient(180deg, rgba(141, 233, 56, 0.85), rgba(141, 233, 56, 0.85)),url('../assets/director.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .sixth {
     grid-area: six;
+    background-image: linear-gradient(180deg, rgba(233, 56, 56, 0.85), rgba(233, 56, 56, 0.85)),url('../assets/bandwidth.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .seventh {
     grid-area: seven;
+    background-image: linear-gradient(180deg, rgba(233, 155, 56, 0.85), rgba(233, 155, 56, 0.85)),url('../assets/data.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .eighth {
     grid-area: eight;
+    background-image: linear-gradient(180deg, rgba(56, 91, 233, .85), rgba(56, 91, 233, .85)),url('../assets/director.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 </style>
 
